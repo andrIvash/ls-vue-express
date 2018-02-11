@@ -20,8 +20,10 @@ npm run build
 > A Node.js (express) support
 
 ``` bash
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:3000
 npm run server
+# main route at localhost:3000
+# test express route at localhost:3000/whoami
 ```
 
 
