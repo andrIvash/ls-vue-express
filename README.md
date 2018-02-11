@@ -1,8 +1,6 @@
 # webpack builder with vue.js and node.js (express) support
 
-> A Vue.js project
-
-## Main Setup
+### Main Setup
 
 ``` bash
 # install dependencies
