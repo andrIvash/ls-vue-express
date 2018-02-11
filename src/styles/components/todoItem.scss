@@ -1,0 +1,53 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+
+  * {
+    user-select: none;
+  }
+
+  &:hover {
+    .remove {
+      visibility: visible;
+    }
+  }
+}
+
+.checked {
+  .title {
+    text-decoration: line-through;
+  }
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.input-block {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  padding: 15px 0;
+  display: block;
+  line-height: 1.2;
+  transition: color 0.4s;
+}
+
+.button {
+  width: 40px;
+  margin-left: auto;
+}
+
+.remove {
+  background: transparent;
+  border: none;
+  color: firebrick;
+  cursor: pointer;
+  visibility: hidden;
+}
